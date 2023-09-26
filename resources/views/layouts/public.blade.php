@@ -1,4 +1,3 @@
-{{-- Questo file deve contenere tuti gli elementi visibili agli utenti che si ripetono in tutte le pagine del sito web  --}}
 
 <!DOCTYPE html>
 
@@ -20,6 +19,11 @@
 
 <body>
 
+    <main>
+
+        @yield("content")
+
+    </main>
 
 </body>
 
